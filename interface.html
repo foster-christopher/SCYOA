@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Game Interface</title>
+</head>
+<body>
+    <header>
+        <h1>Game Title</h]-->
+    </header>
+    <main>
+        <section class="character-info">
+            <h2>Character: <span id="character-name">Name</span></h2>
+            <div class="stats">
+                <div class="stat">
+                    <h3>SPECIAL Stats</h3>
+                    <ul>
+                        <li>Strength: <span id="strength">10</span></li>
+                        <li>Perception: <span id="perception">8</span></li>
+                        <!-- ... -->
+                    </ul>
+                </div>
+                <div class="stat">
+                    <h3>Skill Levels</h3>
+                    <ul>
+                        <li>Guns: <span id="guns-skill">75</span></li>
+                        <li>Speech: <span id="speech-skill">50</li>
+                        <!-- ... -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="chat-history">
+            <h2>Chat History</h2>
+            <div id="chat-container">
+                <div class="chat-message">
+                    <span class="message-content">Hello, how are you?</span>
+                    <span class="message-timestamp">10:00 AM</span>
+                </div>
+                <!-- Additional chat messages displayed here dynamically -->
+            </div>
+        </section>
+        <section class="input-section">
+            <input type="text" id="user-input" placeholder="Type your reply here...">
+            <button onclick="sendReply()">Send</button>
+        </section>
+    </main>
+    <script src="game.js"></script>
+</body>
+</html>
