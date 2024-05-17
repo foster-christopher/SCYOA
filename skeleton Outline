@@ -1,0 +1,36 @@
+/your_game_name/
+├── public/
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── ...
+│   ├── images/
+│   │   ├── logo.png
+│   │   └── ...
+│   ├── index.html
+│   ├── game.html
+│   └── ...
+├── src/
+│   ├── frontend/
+│   │   ├── javascript/
+│   │   │   ├── game.js
+│   │   │   ├── hud.js
+│   │   │   └── ...
+│   │   ├── html/
+│   │   │   ├── hud.html
+│   │   │   └── ...
+│   │   └── css/
+│   │       ├── hud.css
+│   │       └── ...
+│   ├── middleware/
+│   │   ├── api_integration.js
+│   │   ├── coral_integration.js
+│   │   └── ...
+│   └── backend/
+│       ├── server.js
+│       ├── database.js
+│       ├── player_logins.js
+│       ├── character_profiles.js
+│       └── ...
+├── package.json
+├── README.md
+└── ...
