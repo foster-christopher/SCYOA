@@ -1,0 +1,22 @@
+make HTML shell or other player interface with HUD 
+
+
+download/get API key for specific LLM 
+
+Create dictionary function to record sex scenes
+
+create memory/additional dictionary function to record interaction history (keep track of bets, stuff you're waiting on, etc)
+
+create roster/known list of Specific Character Scenes/Plots/Quests, big events (such as Bet You Can't Move Me, etc) and little events (random texts or smaller stuff like "run into someone in the shower"
+
+
+thoughts for bot- rasa? c4a1 Commander R+ has been what I've been using and liking 
+
+
+
+plan-
+
+
+Character is just stats + history. stats includes affection for all characters, any custom characters generated for that player ("I wanna fuck Black Swan or Gwenpool!"), an history is just a list of "Player Did X in Event Y, or Player Chose A in this specific custom thing.", as well as the dictionary of (sex) scene dialogue. try to break each sex scene into a different conversation. 
+
+site or server stores the character data and Player profiles. basically there's a main roster/scenario library, then the game will generate new copies of any character modified by admin input, such as changing character sexual preferences, description, etc. 
